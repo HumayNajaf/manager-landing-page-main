@@ -1,0 +1,68 @@
+.hero-img {
+  width: 60vw;
+
+  img {
+    width: 100%;
+  }
+}
+.differences-content {
+  display: flex;
+  gap: 2rem;
+
+  span {
+    width: 10rem;
+    height: 3rem;
+    background-color: hsl(12, 88%, 59%);
+    display: grid;
+    place-items: center;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+  }
+}
+.recommend {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    gap: 2rem;
+  }
+  .container div {
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    padding: 3rem;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  img {
+    width: 5rem;
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+.start-to-simplify {
+    background-image: url(/images/bg-simplify-section-desktop.svg);
+    background-color: hsl(12, 88%, 59%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 10rem;
+    /* margin: auto; */
+
+    div {
+      display: flex;
+      width: 90vw;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4rem;
+    }
+    h1 {
+      width: 40%;
+    }
+}

@@ -1,0 +1,17 @@
+html {
+  font-size: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  
+  body {
+    font-size: 1.6rem;
+  }
+  main {
+    width: 90vw;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
