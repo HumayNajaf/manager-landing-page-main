@@ -1,0 +1,23 @@
+button {
+  background-color: hsl(12, 88%, 59%);
+  width: 11.1rem;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 30px;
+  color: hsl(0, 0%, 98%);
+  border: none;
+  cursor: pointer;
+}
+.start-to-simplify div button {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(12, 88%, 59%);
+}
+.simplify-button:hover {
+  background-color: hsl(13, 100%, 96%);
+}
+.footer-form button {
+  width: 6.5rem;
+}
+button:hover {
+  background-color: hsl(12, 88%, 67%);
+}

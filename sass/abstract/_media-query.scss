@@ -1,0 +1,24 @@
+@media screen and (max-width: 780px) {
+  header nav {
+    display: none;
+  }
+  .hero,
+  .footer-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .what-is-different {
+    text-align: center;
+  }
+  .info-differences,
+  .persons,
+  .start-to-simplify div,
+  footer {
+    flex-direction: column;
+  }
+  footer {
+    p {
+      align-self: center;
+    }
+  }
+}
